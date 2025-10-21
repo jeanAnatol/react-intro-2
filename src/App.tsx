@@ -8,6 +8,7 @@ import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx"
 import ArrowFunctionalComponentWithPropsType from "./components/ViteIntro/ArrowFunctionalComponentWithPropsType.tsx";
 import Card from "./components/Card.tsx";
 import Layout from "./components/Layout";
+import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
                 description="DESCRIPTION"/>
                 <ArrowFunctionalComponent/>
             </Card>
+            <FunctionalComponentWithState/>
         </Layout>
     </>
 
