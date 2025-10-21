@@ -3,9 +3,10 @@
 //Always import the components
 // import ClassComponent from "./components/ClassComponent.tsx";
 // import FunctionalComponent from "./components/FunctionalComponent.tsx";
-// import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
-import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
-
+import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
+// import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
+import ArrowFunctionalComponentWithPropsType from "./components/ViteIntro/ArrowFunctionalComponentWithPropsType.tsx";
+import Card from "./components/Card.tsx";
 
 function App() {
 
@@ -15,9 +16,16 @@ function App() {
       {/*<ViteIntro />*/}
       {/*  <ClassComponent />*/}
       {/*  <FunctionalComponent />*/}
-      {/*  <ArrowFunctionalComponent/>*/}
-        <ArrowFunctionalComponentWithProps title={"Arrow functional with Props"}/>
+
+
+
+        <Card title="card">
+            <ArrowFunctionalComponentWithPropsType title="Arrow functional with Props"
+            description="DESCRIPTION"/>
+            <ArrowFunctionalComponent/>
+        </Card>
     </>
+
   )
 }
 //Always export
