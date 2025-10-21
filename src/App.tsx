@@ -7,6 +7,7 @@ import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx"
 // import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
 import ArrowFunctionalComponentWithPropsType from "./components/ViteIntro/ArrowFunctionalComponentWithPropsType.tsx";
 import Card from "./components/Card.tsx";
+import Layout from "./components/Layout";
 
 function App() {
 
@@ -19,15 +20,18 @@ function App() {
 
 
 
-        <Card title="card">
-            <ArrowFunctionalComponentWithPropsType title="Arrow functional with Props"
-            description="DESCRIPTION"/>
-            <ArrowFunctionalComponent/>
-        </Card>
+
+        {/*</Card>*/}
+        <Layout>
+            <Card title="card">
+                <ArrowFunctionalComponentWithPropsType title="Arrow functional with Props"
+                description="DESCRIPTION"/>
+                <ArrowFunctionalComponent/>
+            </Card>
+        </Layout>
     </>
 
   )
 }
 //Always export
 export default App
-// ΣΥΝΕΧΕΙΑ 20250925 μετα το διαλειμμα
