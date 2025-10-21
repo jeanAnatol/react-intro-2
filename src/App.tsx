@@ -9,6 +9,7 @@ import ArrowFunctionalComponentWithPropsType from "./components/ViteIntro/ArrowF
 import Card from "./components/Card.tsx";
 import Layout from "./components/Layout";
 import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
+import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
                 <ArrowFunctionalComponent/>
             </Card>
             <FunctionalComponentWithState/>
+            <ClassComponentWithState/>
         </Layout>
     </>
 
